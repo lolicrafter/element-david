@@ -1,6 +1,6 @@
 <template>
   <transition name="el-zoom-in-top" @after-leave="doDestroy">
-    <ul class="el-dropdown-menu el-popper" :class="[size && `el-dropdown-menu--${size}`]" v-show="showPopper">
+    <ul class="el-dropdown-menu el-popper" :class="[size && `el-dropdown-menu--${size}`,customClassDropdownMenu]" v-show="showPopper">
       <slot></slot>
     </ul>
   </transition>
@@ -16,6 +16,7 @@
     mixins: [Popper],
 
     props: {
+      customClassDropdownMenu: String,
       visibleArrow: {
         type: Boolean,
         default: true
