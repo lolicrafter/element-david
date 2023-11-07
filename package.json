@@ -1,6 +1,6 @@
 {
-  "name": "element-ui",
-  "version": "2.15.14",
+  "name": "element-ui-david",
+  "version": "2.15.15",
   "description": "A Component Library for Vue.js.",
   "main": "lib/element-ui.common.js",
   "files": [
@@ -37,7 +37,7 @@
     },
     {
       "domain": "element-theme",
-      "public": "examples/element-ui",
+      "public": "examples/element-ui-david",
       "build": [
         "yarn",
         "npm run deploy:build"

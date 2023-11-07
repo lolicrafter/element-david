@@ -1,4 +1,4 @@
-import { getPropByPath } from 'element-ui/src/utils/util';
+import { getPropByPath } from 'element-ui-david/src/utils/util';
 
 export const cellStarts = {
   default: {
